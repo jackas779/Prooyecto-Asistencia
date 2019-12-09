@@ -5,12 +5,12 @@
     <link rel="stylesheet" type="text/css" href="login.css">
     <script src="https://kit.fontawesome.com/10d6bcba2b.js" crossorigin="anonymous"></script>
     <title>Asistencia</title>
+    <script>$('.message a').click(function(){
+      $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+   });</script>
 </head>
 <body>
     <div class="login-page">
-        <script>$('.message a').click(function(){
-            $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
-         });</script>
         <div class="form">
           <form class="register-form">
             <input type="text" placeholder="nombre"/>
